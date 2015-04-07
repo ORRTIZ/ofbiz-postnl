@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <SecurityGroupPermission groupId="FULLADMIN" permissionId="postnl_ADMIN"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="postnl_CREATE"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="postnl_DELETE"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="postnl_UPDATE"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="postnl_VIEW"/>
+    <SecurityGroupPermission groupId="VIEWADMIN" permissionId="postnl_VIEW"/>
+    <SecurityGroupPermission groupId="BIZADMIN" permissionId="postnl_ADMIN"/>
+</entity-engine-xml>
