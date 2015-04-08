@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <entity-engine-xml>
 
+    <Party partyId="postnl" partyTypeId="PARTY_GROUP"/>
+    <PartyGroup partyId="postnl" groupName="PostNL"/>
+    <PartyRole partyId="postnl" roleTypeId="CARRIER" fromDate="2001-01-01 00:00:00.0"/>
+    <PartyRole partyId="postnl" roleTypeId="SUPPLIER" fromDate="2001-01-01 00:00:00.0"/>
+    <PartyRole partyId="postnl" roleTypeId="VENDOR" fromDate="2001-01-01 00:00:00.0"/>
+    <PartyRole partyId="postnl" roleTypeId="BILL_FROM_VENDOR" fromDate="2001-01-01 00:00:00.0"/>
+    <PartyRole partyId="postnl" roleTypeId="SHIP_FROM_VENDOR" fromDate="2001-01-01 00:00:00.0"/>
+    
 </entity-engine-xml>
