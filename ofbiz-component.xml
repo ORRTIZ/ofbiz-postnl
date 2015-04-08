@@ -40,5 +40,7 @@
         server="default-server"
         location="webapp/postnl"
         base-permission="OFBTOOLS,postnl"
-        mount-point="/postnl"/>
+        mount-point="/postnl"
+        menu-name="secondary"
+        />
 </ofbiz-component>
