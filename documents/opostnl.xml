@@ -22,12 +22,12 @@ limitations under the License.
     xsi:schemaLocation="http://docbook.org/ns/docbook ../../../applications/content/dtd/docbook.xsd"
     xmlns="http://docbook.org/ns/docbook">
     
-    <title><anchor xml:id="postnl"/>The PostNL Integration Component</title>
+    <title><anchor xml:id="opostnl"/>The PostNL Integration Component</title>
     <section>
         <title>Introduction</title>
         <para>
         </para>
     </section>
-        <xi:include href="../data/helpdata/HELP_postnl.xml" />
+        <xi:include href="../data/helpdata/opostnlHelp.xml" />
     
 </chapter>
