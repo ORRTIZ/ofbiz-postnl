@@ -16,7 +16,7 @@ limitations under the License.
 
  -->
 
-<test-suite suite-name="postnl-tests"
+<test-suite suite-name="opostnl-tests"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/test-suite.xsd">
 
