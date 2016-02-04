@@ -51,5 +51,25 @@ limitations under the License.
                 <parameter param-name="systemResourceId" value="${activeApp}"/>
             </link>
         </menu-item>
+        <menu-item name="createShipmentMethod" title="${uiLabelMap.CommonNew} ${uiLabelMap.ShipmentMethod}">
+            <condition>
+                <or>
+                    <if-has-permission permission="${activeApp}" action="_ADMIN"/>
+                </or>
+            </condition>
+            <link target="newshipmentmethod">
+                <parameter param-name="partyId" value="${activeApp}"/>
+            </link>
+        </menu-item>
+        <menu-item name="createShipmentBox" title="${uiLabelMap.CommonNew} ${uiLabelMap.NewShipmentBox}">
+            <condition>
+                <or>
+                    <if-has-permission permission="${activeApp}" action="_ADMIN"/>
+                </or>
+            </condition>
+            <link target="newshipmentbox">
+                <parameter param-name="partyId" value="${activeApp}"/>
+            </link>
+        </menu-item>
     </menu>
 </menus>
