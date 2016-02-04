@@ -17,16 +17,16 @@ limitations under the License.
  -->
 
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/ofbiz-properties.xsd">
-    <property key="postnlApplication">
+    <property key="opostnlApplication">
         <value xml:lang="en">PostNL Integration</value>
     </property>
-    <property key="postnlCompanyName">
+    <property key="opostnlCompanyName">
         <value xml:lang="en">PostNL Integration</value>
     </property>
-    <property key="postnlCompanySubtitle">
+    <property key="opostnlCompanySubtitle">
         <value xml:lang="en">An Apache OFBiz(tm) Component</value>
     </property>
-    <property key="postnlViewPermissionError">
+    <property key="opostnlViewPermissionError">
         <value xml:lang="en">You are not allowed to view this page.</value>
     </property>
 </resource>
