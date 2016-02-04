@@ -36,10 +36,10 @@
     <!-- entity resources: model(s), eca(s), group, and data definitions -->
     <entity-resource type="model" reader-name="main" loader="main" location="entitydef/entitymodel.xml"/>
     <!-- <entity-resource type="eca" reader-name="main" loader="main" location="entitydef/eecas.xml"/> -->
-    <entity-resource type="data" reader-name="seed" loader="main" location="data/postnl-TypeData.xml"/>
+    <entity-resource type="data" reader-name="seed" loader="main" location="data/postnl-SeedData.xml"/>
     <entity-resource type="data" reader-name="seed" loader="main" location="data/postnl-SecurityPermissionSeedData.xml"/>
     
-    <entity-resource type="data" reader-name="seed-initial" loader="main" location="data/postnl-SystemPropertyData.xml"/>
+    <entity-resource type="data" reader-name="seed" loader="main" location="data/postnl-SystemPropertyData.xml"/>
     
     <entity-resource type="data" reader-name="demo" loader="main" location="data/postnl-SecurityGroupDemoData.xml"/>
     <entity-resource type="data" reader-name="demo" loader="main" location="data/postnl-DemoData.xml"/>
@@ -61,6 +61,6 @@
         location="webapp/postnl"
         base-permission="OFBTOOLS,postnl"
         mount-point="/postnl"
-        menu-name="secondary"
+        menu-name="3rdParty"
         />
 </ofbiz-component>
