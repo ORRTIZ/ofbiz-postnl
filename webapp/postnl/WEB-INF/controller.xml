@@ -91,18 +91,18 @@ limitations under the License.
     </request-map>
     
     <!-- View Mappings -->
-    <view-map name="main" type="screen" page="component://postnl/widget/postnl-Screens.xml#main"/>
+    <view-map name="main" type="screen" page="component://opostnl/widget/opostnlScreens.xml#main"/>
     
     <!-- Configuration -->
-    <view-map name="configuration" type="screen" page="component://postnl/widget/ConfigurationScreens.xml#Configuration"/>
-    <view-map name="systemproperties" type="screen" page="component://postnl/widget/ConfigurationScreens.xml#SystemProperties"/>
-    <view-map name="newsystemproperty" type="screen" page="component://postnl/widget/ConfigurationScreens.xml#NewSystemProperty"/>
-    <view-map name="editsystemproperty" type="screen" page="component://postnl/widget/ConfigurationScreens.xml#EditSystemProperty"/>
+    <view-map name="configuration" type="screen" page="component://opostnl/widget/ConfigurationScreens.xml#Configuration"/>
+    <view-map name="systemproperties" type="screen" page="component://opostnl/widget/ConfigurationScreens.xml#SystemProperties"/>
+    <view-map name="newsystemproperty" type="screen" page="component://opostnl/widget/ConfigurationScreens.xml#NewSystemProperty"/>
+    <view-map name="editsystemproperty" type="screen" page="component://opostnl/widget/ConfigurationScreens.xml#EditSystemProperty"/>
     
     <!-- Shipment Gateway Config -->
-    <view-map name="FindShipmentGatewayConfig" page="component://postnl//widget/ShipmentGatewayConfigScreens.xml#FindShipmentGatewayConfig" type="screen"/>
-    <view-map name="EditShipmentGatewayConfig" page="component://postnl//widget/ShipmentGatewayConfigScreens.xml#EditShipmentGatewayConfig" type="screen"/>
-    <view-map name="FindShipmentGatewayConfigTypes" page="component://postnl//widget/ShipmentGatewayConfigScreens.xml#FindShipmentGatewayConfigTypes" type="screen"/>
-    <view-map name="EditShipmentGatewayConfigType" page="component://postnl//widget/ShipmentGatewayConfigScreens.xml#EditShipmentGatewayConfigType" type="screen"/>
+    <view-map name="FindShipmentGatewayConfig" page="component://opostnl//widget/ShipmentGatewayConfigScreens.xml#FindShipmentGatewayConfig" type="screen"/>
+    <view-map name="EditShipmentGatewayConfig" page="component://opostnl//widget/ShipmentGatewayConfigScreens.xml#EditShipmentGatewayConfig" type="screen"/>
+    <view-map name="FindShipmentGatewayConfigTypes" page="component://opostnl//widget/ShipmentGatewayConfigScreens.xml#FindShipmentGatewayConfigTypes" type="screen"/>
+    <view-map name="EditShipmentGatewayConfigType" page="component://opostnl//widget/ShipmentGatewayConfigScreens.xml#EditShipmentGatewayConfigType" type="screen"/>
     
 </site-conf>
