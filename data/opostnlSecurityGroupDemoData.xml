@@ -17,5 +17,5 @@ limitations under the License.
  -->
 
 <entity-engine-xml>
-    <SecurityGroupPermission groupId="FULLADMIN" permissionId="postnl_ADMIN"/>
+    <SecurityGroupPermission groupId="FULLADMIN" permissionId="opostnl_ADMIN"/>
 </entity-engine-xml>
