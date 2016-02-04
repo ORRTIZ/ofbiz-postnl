@@ -25,8 +25,8 @@ limitations under the License.
 
     <property environment="env"/>
     <property name="desc" value="PostNL Integration Component"/>
-    <property name="name" value="postnl"/>
-    <property name="component-name" value="postnl"/>
+    <property name="name" value="opostnl"/>
+    <property name="component-name" value="opostnl"/>
     <property name="ofbiz.home.dir" value="../.."/>
     <property name="src.dir" value="src"/>
     <property name="dtd.dir" value="dtd"/>
