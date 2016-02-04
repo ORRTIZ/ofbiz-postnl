@@ -33,13 +33,13 @@ limitations under the License.
     <!-- entity resources: model(s), eca(s), group, and data definitions -->
     <entity-resource type="model" reader-name="main" loader="main" location="entitydef/entitymodel.xml"/>
     <!-- <entity-resource type="eca" reader-name="main" loader="main" location="entitydef/eecas.xml"/> -->
-    <entity-resource type="data" reader-name="seed" loader="main" location="data/postnl-SeedData.xml"/>
-    <entity-resource type="data" reader-name="seed" loader="main" location="data/postnl-SecurityPermissionSeedData.xml"/>
+    <entity-resource type="data" reader-name="seed" loader="main" location="data/opostnlSeedData.xml"/>
+    <entity-resource type="data" reader-name="seed" loader="main" location="data/opostnlSecurityPermissionSeedData.xml"/>
     
-    <entity-resource type="data" reader-name="seed" loader="main" location="data/postnl-SystemPropertyData.xml"/>
+    <entity-resource type="data" reader-name="seed" loader="main" location="data/opostnlSystemPropertyData.xml"/>
     
-    <entity-resource type="data" reader-name="demo" loader="main" location="data/postnl-SecurityGroupDemoData.xml"/>
-    <entity-resource type="data" reader-name="demo" loader="main" location="data/postnl-DemoData.xml"/>
+    <entity-resource type="data" reader-name="demo" loader="main" location="data/opostnlSecurityGroupDemoData.xml"/>
+    <entity-resource type="data" reader-name="demo" loader="main" location="data/opostnlDemoData.xml"/>
 
     <!-- service resources: model(s), eca(s) and group definitions -->
     <service-resource type="model" loader="main" location="servicedef/services.xml"/>
@@ -49,15 +49,15 @@ limitations under the License.
     <service-resource type="group" loader="main" location="servicedef/groups.xml"/>
     -->
 
-    <test-suite loader="main" location="testdef/postnl-Tests.xml"/>
+    <test-suite loader="main" location="testdef/opostnlTests.xml"/>
 
     <!-- web applications; will be mounted when using the embedded container -->
-    <webapp name="postnl"
+    <webapp name="opostnl"
         title="PostNL Integration"
         server="default-server"
-        location="webapp/postnl"
+        location="webapp/opostnl"
         base-permission="OFBTOOLS,postnl"
-        mount-point="/postnl"
+        mount-point="/opostnl"
         menu-name="3rdParty"
         />
 </ofbiz-component>
